@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>sms</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <form action="{% url 'sms:results' %}" method="post">
+    {% csrf_token %}
+    <textarea name="message"></textarea>
+    <!--<input type="text" name="message">-->
+    <br>
+    <input type="submit" value="OK">
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {}
+
+body {
+    background: white url("images/background.gif") no-repeat;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
